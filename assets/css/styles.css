@@ -1,2 +1,175 @@
 
 /* css */
+
+/* CSS HEX 
+--midnight-blue: #18206fff;
+--penn-blue: #17255aff;
+--champagne: #f5e2c8ff;
+--coral-pink: #d88373ff;
+--cornell-red: #bd1e1eff;
+
+--sage: #cdc392ff;
+--alabaster: #e8e5daff;
+--jordy-blue: #9eb7e5ff;
+--cornflower-blue: #648de5ff;
+--yinmn-blue: #304c89ff;
+*/
+
+/* * {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+} */
+
+
+
+button {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding: .75rem 1.25rem;
+  border-radius: 10rem;
+  border: 2px solid #023c40ff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: .15rem;
+  position: relative;
+  z-index: 1;
+  color: #023c40ff;
+  margin-left: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+  position: relative;
+  height: 25vh;
+  background-color: #023c40ff;
+  margin: 30px 30px 30px 30px;
+  border-radius: 2rem;
+  font-family: 'Mervale Script', sans-serif;
+}
+
+h1 {
+  font-weight: 700;
+  color: white;
+  line-height: 88%;
+  font-size: 10rem;
+}
+
+h2 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #023c40ff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #023c40ff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #023c40ff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul {
+  font-size: 2rem;
+  color: #023c40ff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img {
+  margin-bottom: 30px;
+}
+
+select {
+  width: 200px;
+  height: 5vh;
+  font-size: 1.5rem;
+  color: #023c40ff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media only screen and (min-width: 300px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+
+  ul {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  h1 {
+    font-size: 5rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+
+  ul {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  h1 {
+    font-size: 6rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+
+  ul {
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  h1 {
+    font-size: 10rem;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  ul {
+    font-size: 1.75rem;
+  }
+}

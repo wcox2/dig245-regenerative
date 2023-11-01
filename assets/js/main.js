@@ -33,7 +33,7 @@ async function recommendRecipe() {
 
 async function findRecipe(meal){
   console.log(meal.replace(/\s/g, '') );
-  const endpoint1 = 'http://www.themealdb.com/api/json/v1/1/lookup.php?i=' + meal.replace(/\s/g, '');
+  const endpoint1 = 'https://www.themealdb.com/api/json/v1/1/lookup.php?i=' + meal.replace(/\s/g, '');
 
   await fetch(endpoint1)
       .then(response1 => response1.json())
